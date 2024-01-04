@@ -10,9 +10,9 @@ iphone.ReceberLigacao();
 
 Console.WriteLine("=================================================");
 
-//NOKIA
+// NOKIA
 Console.WriteLine("Você adquiriu o seu Nokia!");
-Nokia nokia = new Nokia("(11)95487=9856", "G11", "88854365874582", 128);
+Nokia nokia = new Nokia("(11)95487-9856", "G11", "88854365874582", 128);
 nokia.MostrarCaracteristicas();
 nokia.InstalarAplicativo("Twitter");
 nokia.Ligar();
